@@ -1,0 +1,74 @@
+
+
+/*轮播指示符重写的样式*/
+.carousel-indicators li{
+    width:12px;height:12px;background-color:#fff;
+    border-radius:50%;
+    margin-left:5px;
+    margin-right:5px;
+}
+.carousel-indicators .active{
+    background:#0aa1ed;
+}
+
+/*重新左右箭头的样式*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    background-color:rgba(0,0,0,0.3);
+    top:40%;
+    border-radius:0.25rem;
+}
+
+/*重写首页推荐的样式*/
+.text_font1{
+    margin-left:2rem;
+    color:#666;
+    font-size:1.6rem;
+    font-weight:bold;
+}
+
+/*下边框的样式*/
+.border-bottom{
+    border-width:3px !important;
+}
+
+/*六张图的第一张*/
+.f1_top>div>div{
+    background-color:#e8e8e8;
+    margin:5px 1px;
+    height:377px;
+}
+/*六张图的第三张*/
+.f1_bottom div.f1_bottom1{
+    background-color:#e8e8e8;
+    height:233px;
+}
+
+.f1_bottom div.f1_bottom2{
+    background-color:#e8e8e8;
+    height:233px;
+}
+
+/*设置第一张图里的位置，细节*/
+div.left_position1{
+    width:295px;height:243px;
+   padding:2rem;
+}
+div.right_position1{
+    width:390px;
+    height:300px;
+}
+img.img1_position{
+    box-sizing:border-box;
+    margin-top:-225px;
+    margin-left:-55px;
+    padding-right:50px;
+}
+
+.img_hover{
+    transition:transform 1s;
+}
+.img_hover:hover{
+    transform:scale(1.1);
+}

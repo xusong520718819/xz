@@ -1,0 +1,18 @@
+/*商品详情页的css样式*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:">";
+}
+
+.big_size{
+    font-size:24px;
+}
+
+.carousel-item{
+    display: inline-block;
+    backface-visibility:visible;
+}
+
+
+
+
+

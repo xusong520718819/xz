@@ -1,0 +1,14 @@
+#header #header_input input{
+    width:409px;height:36px;
+    border:1px solid #0aa1ed;
+}
+
+/*上部面包屑导航的样式*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+
+/*第二行导航--a标签的字体大小*/
+#nav a.my_font{
+    font-size:1.25rem;
+}

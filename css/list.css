@@ -1,0 +1,59 @@
+/*商品列表页的样式*/
+
+
+/*列表列标题*/
+.list_title{
+    width:100%;
+    height:38px;
+    line-height:38px;
+    font: 18px simhei;
+    padding-left:20px;
+    box-shadow: 3px 3px 6px #ccc;
+    color:#808080;
+    background:linear-gradient(to bottom,#f0f0f0 0%, #e0e0e0 100%);
+}
+
+/*商品列表图片的大小*/
+.img_size{
+    width:230px;
+    height:230px;
+}
+
+.input_width{
+    width:15%;
+}
+
+.img_hover{
+    transition:transform 1s;
+}
+.img_hover:hover{
+    transform:scale(1.05);
+}
+
+
+/*购物车里的信息*/
+.shop_detail{
+    flex-wrap:nowrap !important;
+}
+.shop_hidden{
+    overflow: hidden;
+}
+/*给购物车栏里的内容加边框*/
+.shop_border{
+    border-bottom:1px dashed #b8b8b8;
+}
+
+.my_smallsize{
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
