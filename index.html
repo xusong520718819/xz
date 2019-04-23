@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>boot3</title>
+    <!--导入四个文件 顺序不能颠倒 -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/list.css"/>
+</head>
+<body>
+<iframe src="header.html" frameborder="0" scrolling="no" class="my_header"></iframe>
+<div class="container p-0">
+    <h1>轮播图</h1>
+    <div class="carousel" data-ride="carousel" id="carousel">
+        <!-- 1.轮播图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#">
+                    <img class="w-100" src="../img/index/banner1.png" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#">
+                    <img class="w-100" src="../img/index/banner2.png" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#">
+                    <img class="w-100" src="../img/index/banner3.png" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#">
+                    <img class="w-100" src="../img/index/banner4.png" alt=""/>
+                </a>
+            </div>
+        </div>
+
+        <!-- 2.左右箭头-->
+        <a data-slide="prev" href="#carousel" class="carousel-control-prev ">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a data-slide="next" href="#carousel" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+
+        <!--3.轮播指示符-->
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#carousel"></li>
+            <li data-slide-to="1" data-target="#carousel"></li>
+            <li data-slide-to="2" data-target="#carousel"></li>
+            <li data-slide-to="3" data-target="#carousel"></li>
+        </ul>
+    </div>
+    <!-- 首页推荐 /1F-->
+    <div class="mt-5">
+        <!-- 一张图片 + 首页推荐/1F -->
+        <div class="mb-2 border-bottom mb-3">
+            <img src="../img/index/computer_icon.png" alt=""/>
+            <span class="text_font1">首页推荐 /1F</span>
+        </div>
+        <!-- 六张图片---上两张-->
+        <div class="row justify-content-lg-between f1_top m-0">
+            <!-- 第一张图-->
+            <div class="col-md-7 col-sm-12 p-0 m-0">
+                <div class="pt-md-4 pl-md-4 float-left border-0">
+                    <div class="float-left left_position1">
+                        <h3 class="name">Apple MacBook Air系列</h3>
+                        <p class="text-muted my_small">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</p>
+                        <p class="text-primary">￥6988.00</p>
+                        <a class="btn btn-primary" href="#">查看详情</a>
+                    </div>
+                    <img class="float-right img1_position" src="../img/index/study_computer_img1.png" alt=""/>
+                </div>
+            </div>
+            <!-- 第二张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="ml-2">
+                    <div>
+                        <p class="name">小米Air 金属超轻薄</p>
+                        <p>酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</p>
+                        <p>￥6988.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img2.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!-- 六张图片---下面---四张图-->
+        <div class="row mt-2 f1_bottom p-0 m-0">
+            <!-- 第三张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="f1_bottom1 mr-2">
+                    <div >
+                        <p class="name">联想E480C 轻薄系列</p>
+                        <p>￥5399.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img3.png" alt=""/>
+                </div>
+            </div>
+            <!-- 下面四张图---后三张--样式一样，重新加了一个row-->
+            <div class="col-md-7 col-sm-12 p-0">
+                <div class="row m-0">
+                    <!-- 第四张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">华硕RX310 金属超极本</p>
+                                <p>￥4966.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img4.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第五张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">联想小新700 电竞版游戏本</p>
+                                <p class="price">￥6299.00</p>
+                                <a class="btn btn-info" href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img5.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第六张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2">
+                            <div >
+                                <p class="name">戴尔灵越燃7000 轻薄窄边</p>
+                                <p class="price">￥5199.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img3.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新上架 /2F-->
+    <div class="mt-5">
+        <!-- 一张图片 + 最新上架/2F -->
+        <div class="mb-2 border-bottom mb-3">
+            <img src="../img/index/computer_icon.png" alt=""/>
+            <span class="text_font1">最新上架 /2F</span>
+        </div>
+        <!-- 六张图片---上两张-->
+        <div class="row justify-content-lg-between f1_top m-0">
+            <!-- 第一张图-->
+            <div class="col-md-7 col-sm-12 p-0 m-0">
+                <div class="pt-md-4 pl-md-4 float-left border-0">
+                    <div class="float-left left_position1">
+                        <h3 class="name">Apple MacBook Air系列</h3>
+                        <p class="text-muted my_small">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</p>
+                        <p class="text-primary">￥6988.00</p>
+                        <a class="btn btn-primary" href="#">查看详情</a>
+                    </div>
+                    <img class="float-right img1_position" src="../img/index/study_computer_img1.png" alt=""/>
+                </div>
+            </div>
+            <!-- 第二张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="ml-2">
+                    <div>
+                        <p class="name">小米Air 金属超轻薄</p>
+                        <p>酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</p>
+                        <p>￥6988.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img2.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!-- 六张图片---下面---四张图-->
+        <div class="row mt-2 f1_bottom p-0 m-0">
+            <!-- 第三张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="f1_bottom1 mr-2">
+                    <div >
+                        <p class="name">联想E480C 轻薄系列</p>
+                        <p>￥5399.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img3.png" alt=""/>
+                </div>
+            </div>
+            <!-- 下面四张图---后三张--样式一样，重新加了一个row-->
+            <div class="col-md-7 col-sm-12 p-0">
+                <div class="row m-0">
+                    <!-- 第四张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">华硕RX310 金属超极本</p>
+                                <p>￥4966.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img4.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第五张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">联想小新700 电竞版游戏本</p>
+                                <p class="price">￥6299.00</p>
+                                <a class="btn btn-info" href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img5.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第六张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2">
+                            <div >
+                                <p class="name">戴尔灵越燃7000 轻薄窄边</p>
+                                <p class="price">￥5199.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img3.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 热销单品/3F-->
+    <div class="mt-5">
+        <!-- 一张图片 + 热销单品/1F -->
+        <div class="mb-2 border-bottom mb-3">
+            <img src="../img/index/computer_icon.png" alt=""/>
+            <span class="text_font1">热销单品 /3F</span>
+        </div>
+        <!-- 六张图片---上两张-->
+        <div class="row justify-content-lg-between f1_top m-0">
+            <!-- 第一张图-->
+            <div class="col-md-7 col-sm-12 p-0 m-0">
+                <div class="pt-md-4 pl-md-4 float-left border-0">
+                    <div class="float-left left_position1">
+                        <h3 class="name">Apple MacBook Air系列</h3>
+                        <p class="text-muted my_small">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</p>
+                        <p class="text-primary">￥6988.00</p>
+                        <a class="btn btn-primary" href="#">查看详情</a>
+                    </div>
+                    <img class="float-right img1_position" src="../img/index/study_computer_img1.png" alt=""/>
+                </div>
+            </div>
+            <!-- 第二张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="ml-2">
+                    <div>
+                        <p class="name">小米Air 金属超轻薄</p>
+                        <p>酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</p>
+                        <p>￥6988.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img2.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!-- 六张图片---下面---四张图-->
+        <div class="row mt-2 f1_bottom p-0 m-0">
+            <!-- 第三张图-->
+            <div class="col-md-5 col-sm-12 p-0">
+                <div class="f1_bottom1 mr-2">
+                    <div >
+                        <p class="name">联想E480C 轻薄系列</p>
+                        <p>￥5399.00</p>
+                        <a href="#">查看详情</a>
+                    </div>
+                    <img src="../img/index/study_computer_img3.png" alt=""/>
+                </div>
+            </div>
+            <!-- 下面四张图---后三张--样式一样，重新加了一个row-->
+            <div class="col-md-7 col-sm-12 p-0">
+                <div class="row m-0">
+                    <!-- 第四张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">华硕RX310 金属超极本</p>
+                                <p>￥4966.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img4.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第五张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2 mr-2">
+                            <div >
+                                <p class="name">联想小新700 电竞版游戏本</p>
+                                <p class="price">￥6299.00</p>
+                                <a class="btn btn-info" href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img5.png" alt=""/>
+                        </div>
+                    </div>
+                    <!-- 第六张图-->
+                    <div class="col-md-4 col-sm-12 p-0">
+                        <div class="f1_bottom2">
+                            <div >
+                                <p class="name">戴尔灵越燃7000 轻薄窄边</p>
+                                <p class="price">￥5199.00</p>
+                                <a href="#">查看详情</a>
+                            </div>
+                            <img src="../img/index/study_computer_img3.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--添加尾部 footer-->
+<iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+</body>
+</html>
